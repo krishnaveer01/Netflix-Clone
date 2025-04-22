@@ -1,0 +1,291 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    color: #ffffff;
+}
+
+body{
+      background-color:black
+
+}
+.navbar{
+    height: 80px;
+    width: 96%;
+    background-color: transparent;
+   
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 332px;
+    height: 80px;
+    margin-left: 16px;
+    
+}
+.logo-img{
+    height: 80px;
+    width: 332px;
+    background-image: url("Netflix-Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.nav-container
+{
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.language
+{
+  color:white;
+  background-color: transparent;
+  padding: 6px 36px 6px 34px;
+  margin-left: 600px;
+  height: 32px;
+  width: 121px;
+    border: 2px solid white;
+  border-radius: 35px;
+}
+
+.signin{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        background-color: white;
+        height: 32px;
+        margin-left: 12px;
+        width: 76px;
+        border: 2px solid white;
+        border-radius: 35px;
+      }
+
+.hero-section{
+          height: 300px;
+          width: 96%; 
+          margin-left: 20px;  
+          background-image: url("netflix-image.jpg");
+          border-radius:20px ;
+          background-size: cover;
+          background-repeat: no-repeat;
+}         
+
+.hero-box{
+        height: 400px;
+        width: 600px;
+        padding-left: 40px;
+        padding-bottom: 80px;
+        margin-top: 140px;
+        background-color: transparent;
+        color: #ffffff;
+}
+
+.title{
+       height: 120px;
+       width: 586px;
+       font-size: 3em;
+       margin-bottom: 12px;
+}
+
+.sub{
+      height: 24px;
+      width: 586px;
+      margin-bottom: 24px;
+      font-size: 1.1em;
+}
+.sub2{
+     width: 580px;
+     height: 24px;
+     font-size: 1em;
+}
+
+.trendind{
+     font-size: 1.34em;
+     color: white;
+     height: 50px;
+     margin-left: 50px;
+}
+
+.email-add
+{
+  width: 580px;
+  height: 72px;
+  padding-top: 16px;
+  background-color: transparent;
+  display: flex;
+}
+
+.email
+{
+  width:348px;
+  height: 56px;
+}
+
+.email input{
+  height: 80%;
+  width: 85%;
+  background-color: rgba(255,255,255,0.3);
+  padding: 24px 16px 8px;
+  border: 1.5 solid white;
+  border-radius: 35px;
+}
+
+.started
+{
+  height: 80%;
+  width: 223px;
+  background-color: red;
+  color: white;
+  display: flex;
+  font-size: 1.4em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.trending
+{
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.content
+{
+  height: 280px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  padding: 12px;
+  margin-left: 50px;
+}
+
+.content-img
+{
+ height: 256px;
+ width: 140px;
+ padding-top: 12px;
+ background-size: cover;
+ background-position: center;
+ border-radius: 10px;
+}
+
+.regions
+{
+  font-size: 20px;
+  margin: 12px 0px 0px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.details
+{
+  height: 185px;
+  display: flex;
+  margin-left: 50px;
+  gap: 11px;
+}
+
+.detail-box
+{
+ height: 155px;
+ width: 255px;
+ background-color:#ffffff1a ;
+ border-radius: 10px;
+}
+
+.ans
+{
+  font-size: 0.85em;
+  color: #ffffffb3;
+  margin-top: 25px;
+}
+
+.question
+{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.features
+{
+  height: 72px;
+  margin-bottom: 8px;
+  background-color: #ffffff1a;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  margin-left: 50px;
+}
+
+.feature-box
+{
+  height: 24px;
+  width: 100%;
+  font-size: 18px;
+  padding: 24px;
+  background-color: transparent;
+}
+
+.feature-sign
+{
+ height: 24px;
+ width: 24px;
+ padding: 24px;
+ margin-right: 0px;
+ background-color: transparent;
+}
+
+.email2
+{
+  height: 100px;
+  padding-top: 25px;
+ margin-left: 135px;
+}
+.call
+{
+  margin-left: 50px;
+  height: 30px;
+  margin-top: 36px;
+  padding: 3px;
+  color:#ffffffb3;
+}
+
+.footer
+{
+  height: 300px;
+  padding: 4px;
+  margin-top: 25px;
+  margin-left: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.foot-box
+{
+  height: 200px;
+  width: 33%;
+}
+
+.foot-data
+{
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.foot-data a
+{
+  color: #ffffffb3;
+  font-size: 14px;
+}
+
